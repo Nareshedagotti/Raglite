@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+basicrag/__init__.py
+basicrag/chunker.py
+basicrag/embedder.py
+basicrag/llm.py
+basicrag/loaders.py
+basicrag/pipeline.py
+basicrag/preprocessor.py
+basicrag/vectorstore.py
+basicrag.egg-info/PKG-INFO
+basicrag.egg-info/SOURCES.txt
+basicrag.egg-info/dependency_links.txt
+basicrag.egg-info/requires.txt
+basicrag.egg-info/top_level.txt

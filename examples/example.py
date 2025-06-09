@@ -1,4 +1,4 @@
-from raglite import RAGPipeline
+from basicrag import RAGPipeline
 
 # Example with default settings
 rag = RAGPipeline(

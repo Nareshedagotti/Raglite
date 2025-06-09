@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="raglite",
+    name="basicrag",
     version="0.1.0", 
     packages=find_packages(),
     install_requires=[
@@ -20,7 +20,7 @@ setup(
         "docx2txt"
     ],
     description="Lightweight RAG pipeline for document question answering",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     author="Naresh Edagotti",
     author_email="statfusionai@gmail.com",
