@@ -24,7 +24,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Naresh Edagotti",
     author_email="statfusionai@gmail.com",
-    url="https://github.com/Nareshedagotti/raglite",
+    url="https://github.com/Nareshedagotti/Raglite",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
