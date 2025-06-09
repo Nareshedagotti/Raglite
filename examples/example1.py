@@ -1,4 +1,4 @@
-from rag import RAGPipeline
+from raglite import RAGPipeline
 
 # Example with custom prompt
 custom_prompt = """[SYSTEM] You're a research assistant. Use only the provided context.

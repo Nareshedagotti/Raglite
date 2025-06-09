@@ -1,4 +1,4 @@
-from rag import RAGPipeline
+from raglite import RAGPipeline
 
 # Example with default settings
 rag = RAGPipeline(
@@ -11,4 +11,4 @@ rag = RAGPipeline(
 rag.load_data("https://en.wikipedia.org/wiki/Large_language_model")
 rag.fit()
 response = rag.query("What are large language models?")
-print("📢 Response:\n", response)
+print("Response:\n", response)
