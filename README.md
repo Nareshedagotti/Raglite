@@ -1,6 +1,6 @@
-# RAGlite - Lightweight RAG Pipeline
+# Basicrag - Lightweight RAG Pipeline
 
-**RAGlite** is a simple yet powerful Python package for building Retrieval-Augmented Generation (RAG) pipelines. With just a few lines of code, you can load documents, generate embeddings, and query information using state-of-the-art LLMs.
+**basicrag** is a simple yet powerful Python package for building Retrieval-Augmented Generation (RAG) pipelines. With just a few lines of code, you can load documents, generate embeddings, and query information using state-of-the-art LLMs.
 
 ---
 
@@ -17,14 +17,14 @@
 ## 📦 Installation
 
 ```bash
-pip install raglite
+pip install basicrag
 ````
 ---
 
 ## ⚡ Quick Start
 
 ```python
-from raglite import RAGPipeline
+from basicrag import RAGPipeline
 
 # Initialize pipeline
 rag = RAGPipeline(
@@ -92,7 +92,7 @@ rag = RAGPipeline(
 
 ## 🤖 Supported Models
 
-RAGlite is compatible with **any model** available through supported providers like **Groq**, **Gemini**, and **OpenAI**, as long as the provider's API supports it.
+basicrag is compatible with **any model** available through supported providers like **Groq**, **Gemini**, and **OpenAI**, as long as the provider's API supports it.
 
 Below are **popular examples**, but you're free to use **any valid model name**:
 
@@ -152,10 +152,10 @@ rag = RAGPipeline(
 
 ## 🖥️ Command Line Interface (CLI)
 
-RAGlite includes a simple CLI for quick RAG queries:
+basicrag includes a simple CLI for quick RAG queries:
 
 ```bash
-raglite query "What is the main topic?" \
+basicrag query "What is the main topic?" \
   --file document.pdf \
   --provider groq \
   --model llama3-70b-8192 \
